@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-set=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">Name <input id="name" type="text" name="name" placeholder="Enter your name" required></input></label>
+          <label id="email-label">Email <input id="email" type="email" name='email' placeholder="Enter your Email" required></input></label>
+          <label id="number-label">Age(optional) <input id="number" type="number" name="age" min='13' max="120" placeholder="Age"></input></label>
+          <label>Which option best describes your current role?
+            <select id="dropdown">
+              <option>Select an option</option>
+              <option>Challenges</option>
+              <option>Projects</option>
+              <option>Community</option>
+              <option>Open Source</option>
+              
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label>Would you recommend freeCodeCamp to a friend?
+          <input type="radio" name="recommend" value="definitely">Definitely</input>
+          <input type="radio" name="recommend" value="maybe">Maybe</input>
+          <input type="radio" name="recommend" value="not sure">Not sure</input>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label>What would you like to see improved? <small>(Check all that apply)</small>
+          <input type="checkbox" value="1"> Front-end Projects</input>
+           <input type="checkbox" value="2"> Back-end Projects</input>
+           <input type="checkbox" value="3"> Data Visualization</input></label>
+
+           <label>Any comments or suggestions?
+           <textarea class="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea></label>
+        </fieldset>
+
+        <input id="submit" type="submit" value="Submit"></input>
+      </form>
+    
+  </body>
+
+</html>

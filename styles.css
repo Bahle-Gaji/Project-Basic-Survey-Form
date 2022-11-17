@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #3f3f45;
+    color: #f2f5f4;
+    max-width: 300px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+p{
+    font-style: italic; 
+    font-size: 0.9rem;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+input, select{
+    color: white;
+    background-color: #0a0a24;
+    border: 1px double black
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+    border-color: #4f4565;
+}
